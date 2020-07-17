@@ -34,5 +34,58 @@
 }
 
 #email-or-phone-label, #password-label {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+
+
+.form-control-sm {
+    height: calc(1.5em + .5rem + -4px) !important;
+    width: 150px !important;
+}
+
+.btn-sm {
+    line-height: 1 !important;
+    height: 26px !important;
+    margin-top: 3px !important;
+}
+
+.custom-select-sm {
+    width: 78px !important;
+    height: calc(1.5em + .5rem + -3px) !important;
+    line-height: 1 !important;
+}
+
+.button-size {
+    width: 12em;
+}
+
+.brand-name {
+    margin-top: 10px;
+}
+
+.real-img {
+    border-radius: 50%;
+    width: 60px;
+    height: 50px;
+}
+
+.card-size {
+    width: 10rem;
+    height: 230px;
+}
+
+.card-img {
+    height: 160px;
+}
+
+.card-img-full {
+    height: 230px;
+}
+
+.dropdown-menu-left {
+    left: -170px;
+    top: 60px;
 }
