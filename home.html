@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freshbits</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -60,16 +60,63 @@
             </div>
             <div class="collapse navbar-collapse nav-item-right">
                 <ul class="nav justify-content-center">
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="index.html" title="Create"><i class="fa fa-2x fa-plus mr-2"></i></a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" title="Create" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                            <i class="fa fa-2x fa-plus mr-2"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <h1 class="dropdown-header">Create</h1>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-pencil-square-o mr-2"></i> Post
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-book mr-2"></i> Story
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-star mr-2"></i> Life Event
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-flag mr-2"></i> Page
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-newspaper-o mr-2"></i> Ad
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-users mr-2"></i> Group
+                            </a>
+                        </div>
                     </li>
                     <li class="nav-item mr-2">
                         <a class="nav-link" href="index.html" title="Messenger"><i class="fa fa-2x fa-comments mr-2"></i></a> </li>
                     <li class="nav-item mr-2">
                         <a class="nav-link" href="index.html" title="Notification"><i class="fa fa-2x fa-bell mr-2"></i></a>
                     </li>
-                    <li class="nav-item mr-1">
-                        <a class="nav-link" href="index.html" title="See More"><i class="fa fa-2x fa-chevron-circle-down"></i></a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" title="Create" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                            <i class="fa fa-2x fa-chevron-circle-down"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-left">
+                            <a class="dropdown-item" href="#">
+                                <div class="mt-3">
+                                    <img src="image/john.jpg" class="real-img mr-2" alt="Jonny English"> Jonny English
+                                </div>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-info mr-2"></i> Give feeddback
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-cog mr-2"></i> Settings & Privacy 
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-info-circle mr-2"></i> Help & Support
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="fa fa-2x fa-sign-out mr-2"></i> Log Out
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -79,38 +126,62 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="mt-3">
-                    <i class="fa fa-2x fa-user mr-3"></i> Jonny English
+                    <img src="image/john.jpg" class="real-img mr-2" alt="Jonny English"> Jonny English
                 </div>
                 <div class="mt-3">
-                    <i class="fa fa-2x fa-users mr-2"></i> Friends
+                    <a href="index.html" class="text-dark"> <i class="text-success fa fa-2x fa-users mr-2"></i> Friends </a>
                 </div>
                 <div class="mt-3">
-                    <i class="fa fa-2x fa-users mr-2"></i> Group
+                    <a href="index.html" class="text-dark"> <i class="text-primary fa fa-2x fa-users mr-2"></i> Group </a>
                 </div>
                 <div class="mt-3">
-                    <i class="fa fa-2x fa-comments mr-2"></i> Message
+                    <a href="index.html" class="text-dark"> <i class="text-danger fa fa-2x fa-comments mr-2"></i> Message </a>
                 </div>
                 <div class="mt-3">
-                    <i class="fa fa-2x fa-camera-retro mr-2"></i> Video
+                    <a href="index.html" class="text-dark"> <i class="text-info fa fa-2x fa-camera-retro mr-2"></i> Video </a>
                 </div>
                 <div class="mt-3">
-                    <i class="fa fa-2x fa-flag mr-2"></i> Page
+                    <a href="index.html" class="text-dark"> <i class="text-warning fa fa-2x fa-flag mr-2"></i> Page </a>
                 </div>
                 <div class="mt-3">
-                    <i class="fa fa-2x fa-chevron-circle-down mr-1"></i> See More
+                    <a href="index.html" class="text-dark"> <i class="text-secondary fa fa-2x fa-chevron-circle-down mr-1"></i> See More </a>
                 </div>
                 <hr />
                 <label class="h5">Shortcuts</label>
                 <div class="mt-3">
-                    <i class="fa fa-2x fa-camera-retro mr-1"></i> Stride Ahead (Personalized Career Assistant)
+                    <a href="index.html" class="text-dark"> 
+                        <i class="text- fa fa-2x fa-camera-retro mr-1"></i> Stride Ahead (Personalized Career Assistant) 
+                    </a>
                 </div>
             </div>
 
             <div class="col-md-6 align-self-center">
-                <div class="card p-4">
+                <div>
+                    <div class="row">
+                        <div class="card text-center card-size mr-2">
+                            <img src="image/john.jpg" class="card-img-top card-img" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary" title="add Story">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card  text-center card-size">
+                            <img src="image/story1.jpg" class="card-img-top card-img-full" alt="...">
+                        </div>
+                        <div class="card  text-center card-size">
+                            <img src="image/story2.jpg" class="card-img-top card-img-full" alt="...">
+                        </div>
+                        <div class="card  text-center card-size">
+                            <img src="image/story3.jpg" class="card-img-top card-img-full" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-4 mt-5">
                     <div class="d-flex">
                         <div class="mr-2">
-                            <img src="image/img_avatar.png" 
+                            <img src="image/john.jpg" 
                                 class="d-inline-block align-top img" 
                                 alt="" 
                                 loading="lazy"
@@ -127,15 +198,15 @@
                     <hr/>
                     <div class="d-flex justify-content-around">
                         <div class="col ml-5">
-                            <i class="fas fa-2x fa-video mr-2"></i> Live Video
+                            <a href="#" class="text-dark"><i class="fas fa-2x fa-video text-danger mr-2"></i> Live Video</a>
                         </div>
     
                         <div class="col">
-                            <i class="fa fa-2x fa-camera-retro mr-2"></i> Photos/Video
+                            <a href="#" class="text-dark"><i class="fa fa-2x fa-camera-retro text-success mr-2"></i> Photos/Video</a>
                         </div>
     
                         <div class="col">
-                            <i class="far fa-2x fa-smile mr-2"></i> Feeling/Activity
+                            <a href="#" class="text-dark"><i class="far fa-2x fa-smile text-warning mr-2"></i> Feeling/Activity</a>
                         </div>
                     </div>
                 </div>
@@ -144,26 +215,27 @@
             <div class="col-md-3 pt-3">
                 <label class="h5">Contacts</label>
                 <div class="mt-3">
-                    <img src="image/img_avatar.png" class="img mr-2"> John Abraham
+                    <img src="image/john_abraham.jpg" class="real-img mr-2"> John Abraham
                 </div>
                 <div class="mt-3">
-                    <img src="image/img_avatar.png" class="img mr-2"> John Gadar
+                    <img src="image/john_gadar.png" class="real-img mr-2"> John Gadar
                 </div>
                 <div class="mt-3">
-                    <img src="image/img_avatar.png" class="img mr-2"> John Wick
+                    <img src="image/john_wick.jpg" class="img mr-2"> John Wick
                 </div>
                 <div class="mt-3">
-                    <img src="image/img_avatar.png" class="img mr-2"> John Cena
+                    <img src="image/john_cena.jpg" class="real-img mr-2"> John Cena
                 </div>
                 <div class="mt-3">
-                    <img src="image/img_avatar.png" class="img mr-2"> John Deere
-                </div>
-                <div class="mt-3">
-                    <img src="image/img_avatar.png" class="img mr-2"> John Depp
+                    <img src="image/john_deere.jpg" class="real-img mr-2"> John Deere
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
