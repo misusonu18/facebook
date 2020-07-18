@@ -31,6 +31,7 @@
 
 .search, .input-group-text {
     border-radius: 40px;
+    margin-top: 5px;
 }
 
 #email-or-phone-label, #password-label {
@@ -63,12 +64,14 @@
 }
 
 .brand-name {
-    margin-top: 10px;
+    margin-top: 25px;
+    margin-left: 55px;
+    font-weight: 850 !important;
 }
 
 .real-img {
     border-radius: 50%;
-    width: 60px;
+    width: 50px;
     height: 50px;
 }
 
@@ -88,4 +91,20 @@
 .dropdown-menu-left {
     left: -170px;
     top: 60px;
+}
+
+.form-login {
+    margin-left: 75px !important;
+}
+
+.right-timeline {
+    margin-top: -43px;
+}
+
+.right-timeline-footer {
+    margin-top: -24px;
+}
+
+.image-timeline {
+    border: 2px solid black;
 }
